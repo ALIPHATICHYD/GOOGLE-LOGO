@@ -13,3 +13,15 @@ body {
 
 
 }
+
+.logo {
+    position: relative;
+    width: 22rem;
+    height: 22rem;
+    border-radius: 50%;
+    border-left: 40px solid #fbbc05;
+    border-right: 40px solid #438586;
+    border-top: 40px solid #ec4336;
+    border-bottom: 40px solid #34a856;
+
+}
