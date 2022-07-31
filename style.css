@@ -38,3 +38,15 @@ body {
     transform: rotate(90deg);
 
 }
+
+.logo:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: -45px;
+    width: 110px;
+    height: 40px;
+    background: #438586;
+    transform: translate(-5px, -20px);
+    border-bottom-right-radius: 15px;
+}
