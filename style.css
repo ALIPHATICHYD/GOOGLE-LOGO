@@ -25,3 +25,16 @@ body {
     border-bottom: 40px solid #34a856;
 
 }
+
+.logo:before {
+    content: '';
+    position: absolute;
+    top: -150%;
+    right: -150%;
+    border-top: 110px transparent ;
+    border-right: 110px solid #fff;
+    border-bottom: 110px solid transparent;
+    border-left: 110px solid transparent;
+    transform: rotate(90deg);
+
+}
